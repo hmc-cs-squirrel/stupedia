@@ -19,7 +19,9 @@ return array(
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
-    'Skinny\\' => array($vendorDir . '/tinymighty/skinny/includes'),
+    'Skins\\Chameleon\\Tests\\' => array($baseDir . '/skins/chameleon/tests/phpunit'),
+    'Skins\\Chameleon\\' => array($baseDir . '/skins/chameleon/src'),
+    'Skinny\\' => array($baseDir . '/extensions/Skinny/includes'),
     'RemexHtml\\' => array($vendorDir . '/wikimedia/remex-html/RemexHtml'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src/Psy'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
@@ -29,5 +31,6 @@ return array(
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Composer\\Spdx\\' => array($vendorDir . '/composer/spdx-licenses/src'),
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
+    'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
     'CLDRPluralRuleParser\\' => array($vendorDir . '/wikimedia/cldr-plural-rule-parser/src'),
 );

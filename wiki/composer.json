@@ -16,7 +16,7 @@
 		"wiki": "https://www.mediawiki.org/"
 	},
 	"require": {
-		"tinymighty/skinny": "*",
+		"mediawiki/chameleon-skin": "~1.0",
 		"composer/semver": "1.4.2",
 		"cssjanus/cssjanus": "1.2.0",
 		"ext-ctype": "*",

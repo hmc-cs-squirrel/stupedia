@@ -4,18 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
+class ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a24b5daa493ecb5e767c7d1592a8da36' => __DIR__ . '/..' . '/mediawiki/at-ease/src/Functions.php',
+        'e4a3b04de436ac79e6a70da4de9e1031' => __DIR__ . '/../..' . '/extensions/Skinny/Skinny.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        'e4a3b04de436ac79e6a70da4de9e1031' => __DIR__ . '/..' . '/tinymighty/skinny/Skinny.php',
+        '909f49809564e82b2d61096b70b21283' => __DIR__ . '/../..' . '/extensions/Bootstrap/Bootstrap.php',
         'c3f7f0e81464740a933532e81fa26cc7' => __DIR__ . '/..' . '/wikimedia/base-convert/src/Functions.php',
         'd55c27a601de788b19a09b7d057d07ae' => __DIR__ . '/..' . '/wikimedia/relpath/src/RelPath.php',
         'c50606d667a3fde2b80a955639479d3d' => __DIR__ . '/..' . '/wikimedia/timestamp/src/defines.php',
+        'c2e71fcc04a495222070f6110f9c6139' => __DIR__ . '/../..' . '/skins/booty/Booty.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
-        'c2e71fcc04a495222070f6110f9c6139' => __DIR__ . '/..' . '/tinymighty/booty-skin/Booty.php',
+        'd5ece1612187536cca0f0d445ce68f45' => __DIR__ . '/../..' . '/skins/chameleon/Chameleon.php',
+        'cb42de33506561e6b5fe72b72238a9a0' => __DIR__ . '/../..' . '/skins/chameleon/src/SkinChameleon.php',
         '38db717deddb215de53e36c2c0bc9e7e' => __DIR__ . '/../..' . '/includes/compat/Timestamp.php',
         '6e34e14285f2ef7d187014f2888f15e2' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '228bb15c3eaa7fe8028741119398e3a1' => __DIR__ . '/..' . '/wmde/hamcrest-html-matchers/src/functions.php',
@@ -46,6 +49,8 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
+            'Skins\\Chameleon\\Tests\\' => 22,
+            'Skins\\Chameleon\\' => 16,
             'Skinny\\' => 7,
         ),
         'R' => 
@@ -74,6 +79,7 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         array (
             'Composer\\Spdx\\' => 14,
             'Composer\\Semver\\' => 16,
+            'Composer\\Installers\\' => 20,
             'CLDRPluralRuleParser\\' => 21,
         ),
     );
@@ -133,9 +139,17 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Skins\\Chameleon\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit',
+        ),
+        'Skins\\Chameleon\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/skins/chameleon/src',
+        ),
         'Skinny\\' => 
         array (
-            0 => __DIR__ . '/..' . '/tinymighty/skinny/includes',
+            0 => __DIR__ . '/../..' . '/extensions/Skinny/includes',
         ),
         'RemexHtml\\' => 
         array (
@@ -172,6 +186,10 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
         'CLDRPluralRuleParser\\' => 
         array (
@@ -284,6 +302,78 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         'Cdb\\Writer\\DBA' => __DIR__ . '/..' . '/wikimedia/cdb/src/Writer/DBA.php',
         'Cdb\\Writer\\PHP' => __DIR__ . '/..' . '/wikimedia/cdb/src/Writer/PHP.php',
         'ComposerHookHandler' => __DIR__ . '/../..' . '/includes/composer/ComposerHookHandler.php',
+        'Composer\\Installers\\AglInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AglInstaller.php',
+        'Composer\\Installers\\AimeosInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AimeosInstaller.php',
+        'Composer\\Installers\\AnnotateCmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php',
+        'Composer\\Installers\\AsgardInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AsgardInstaller.php',
+        'Composer\\Installers\\AttogramInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AttogramInstaller.php',
+        'Composer\\Installers\\BaseInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/BaseInstaller.php',
+        'Composer\\Installers\\BitrixInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/BitrixInstaller.php',
+        'Composer\\Installers\\BonefishInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/BonefishInstaller.php',
+        'Composer\\Installers\\CakePHPInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CakePHPInstaller.php',
+        'Composer\\Installers\\ChefInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ChefInstaller.php',
+        'Composer\\Installers\\ClanCatsFrameworkInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ClanCatsFrameworkInstaller.php',
+        'Composer\\Installers\\CockpitInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CockpitInstaller.php',
+        'Composer\\Installers\\CodeIgniterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CodeIgniterInstaller.php',
+        'Composer\\Installers\\Concrete5Installer' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Concrete5Installer.php',
+        'Composer\\Installers\\CraftInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CraftInstaller.php',
+        'Composer\\Installers\\CroogoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/CroogoInstaller.php',
+        'Composer\\Installers\\DecibelInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/DecibelInstaller.php',
+        'Composer\\Installers\\DokuWikiInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/DokuWikiInstaller.php',
+        'Composer\\Installers\\DolibarrInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/DolibarrInstaller.php',
+        'Composer\\Installers\\DrupalInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/DrupalInstaller.php',
+        'Composer\\Installers\\ElggInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ElggInstaller.php',
+        'Composer\\Installers\\ExpressionEngineInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ExpressionEngineInstaller.php',
+        'Composer\\Installers\\FuelInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/FuelInstaller.php',
+        'Composer\\Installers\\FuelphpInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/FuelphpInstaller.php',
+        'Composer\\Installers\\GravInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/GravInstaller.php',
+        'Composer\\Installers\\HuradInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/HuradInstaller.php',
+        'Composer\\Installers\\ImageCMSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ImageCMSInstaller.php',
+        'Composer\\Installers\\Installer' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Installer.php',
+        'Composer\\Installers\\JoomlaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/JoomlaInstaller.php',
+        'Composer\\Installers\\KirbyInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/KirbyInstaller.php',
+        'Composer\\Installers\\KodiCMSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/KodiCMSInstaller.php',
+        'Composer\\Installers\\KohanaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/KohanaInstaller.php',
+        'Composer\\Installers\\LaravelInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/LaravelInstaller.php',
+        'Composer\\Installers\\LithiumInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/LithiumInstaller.php',
+        'Composer\\Installers\\MODULEWorkInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MODULEWorkInstaller.php',
+        'Composer\\Installers\\MODXEvoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MODXEvoInstaller.php',
+        'Composer\\Installers\\MagentoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MagentoInstaller.php',
+        'Composer\\Installers\\MakoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MakoInstaller.php',
+        'Composer\\Installers\\MauticInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MauticInstaller.php',
+        'Composer\\Installers\\MediaWikiInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MediaWikiInstaller.php',
+        'Composer\\Installers\\MicroweberInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MicroweberInstaller.php',
+        'Composer\\Installers\\MoodleInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MoodleInstaller.php',
+        'Composer\\Installers\\OctoberInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/OctoberInstaller.php',
+        'Composer\\Installers\\OxidInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/OxidInstaller.php',
+        'Composer\\Installers\\PPIInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PPIInstaller.php',
+        'Composer\\Installers\\PhiftyInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PhiftyInstaller.php',
+        'Composer\\Installers\\PhpBBInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PhpBBInstaller.php',
+        'Composer\\Installers\\PimcoreInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PimcoreInstaller.php',
+        'Composer\\Installers\\PiwikInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PiwikInstaller.php',
+        'Composer\\Installers\\PlentymarketsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PlentymarketsInstaller.php',
+        'Composer\\Installers\\Plugin' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Plugin.php',
+        'Composer\\Installers\\PrestashopInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PrestashopInstaller.php',
+        'Composer\\Installers\\PuppetInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/PuppetInstaller.php',
+        'Composer\\Installers\\RadPHPInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/RadPHPInstaller.php',
+        'Composer\\Installers\\ReIndexInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ReIndexInstaller.php',
+        'Composer\\Installers\\RedaxoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/RedaxoInstaller.php',
+        'Composer\\Installers\\RoundcubeInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/RoundcubeInstaller.php',
+        'Composer\\Installers\\SMFInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SMFInstaller.php',
+        'Composer\\Installers\\ShopwareInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ShopwareInstaller.php',
+        'Composer\\Installers\\SilverStripeInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/SilverStripeInstaller.php',
+        'Composer\\Installers\\Symfony1Installer' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/Symfony1Installer.php',
+        'Composer\\Installers\\TYPO3CmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php',
+        'Composer\\Installers\\TYPO3FlowInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php',
+        'Composer\\Installers\\TheliaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TheliaInstaller.php',
+        'Composer\\Installers\\TuskInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TuskInstaller.php',
+        'Composer\\Installers\\VanillaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/VanillaInstaller.php',
+        'Composer\\Installers\\WHMCSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WHMCSInstaller.php',
+        'Composer\\Installers\\WolfCMSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WolfCMSInstaller.php',
+        'Composer\\Installers\\WordPressInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WordPressInstaller.php',
+        'Composer\\Installers\\YawikInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/YawikInstaller.php',
+        'Composer\\Installers\\ZendInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ZendInstaller.php',
+        'Composer\\Installers\\ZikulaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php',
         'Composer\\Semver\\Comparator' => __DIR__ . '/..' . '/composer/semver/src/Comparator.php',
         'Composer\\Semver\\Constraint\\AbstractConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/AbstractConstraint.php',
         'Composer\\Semver\\Constraint\\Constraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/Constraint.php',
@@ -1738,10 +1828,75 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'Skinny\\Layout' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Layout.php',
-        'Skinny\\Skin' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Skin.php',
-        'Skinny\\Slim' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Slim.php',
-        'Skinny\\Template' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Template.php',
+        'Skins\\Chameleon\\ChameleonTemplate' => __DIR__ . '/../..' . '/skins/chameleon/src/ChameleonTemplate.php',
+        'Skins\\Chameleon\\ComponentFactory' => __DIR__ . '/../..' . '/skins/chameleon/src/ComponentFactory.php',
+        'Skins\\Chameleon\\Components\\Cell' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Cell.php',
+        'Skins\\Chameleon\\Components\\Component' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Component.php',
+        'Skins\\Chameleon\\Components\\Container' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Container.php',
+        'Skins\\Chameleon\\Components\\FooterIcons' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/FooterIcons.php',
+        'Skins\\Chameleon\\Components\\FooterInfo' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/FooterInfo.php',
+        'Skins\\Chameleon\\Components\\FooterPlaces' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/FooterPlaces.php',
+        'Skins\\Chameleon\\Components\\Grid' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Grid.php',
+        'Skins\\Chameleon\\Components\\Html' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Html.php',
+        'Skins\\Chameleon\\Components\\Logo' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Logo.php',
+        'Skins\\Chameleon\\Components\\MainContent' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/MainContent.php',
+        'Skins\\Chameleon\\Components\\Menu' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Menu.php',
+        'Skins\\Chameleon\\Components\\Modifications\\HideFor' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Modifications/HideFor.php',
+        'Skins\\Chameleon\\Components\\Modifications\\Modification' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Modifications/Modification.php',
+        'Skins\\Chameleon\\Components\\Modifications\\ShowOnlyFor' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Modifications/ShowOnlyFor.php',
+        'Skins\\Chameleon\\Components\\Modifications\\Sticky' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Modifications/Sticky.php',
+        'Skins\\Chameleon\\Components\\NavMenu' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/NavMenu.php',
+        'Skins\\Chameleon\\Components\\NavbarHorizontal' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/NavbarHorizontal.php',
+        'Skins\\Chameleon\\Components\\NewtalkNotifier' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/NewtalkNotifier.php',
+        'Skins\\Chameleon\\Components\\PageTools' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/PageTools.php',
+        'Skins\\Chameleon\\Components\\PersonalTools' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/PersonalTools.php',
+        'Skins\\Chameleon\\Components\\Row' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Row.php',
+        'Skins\\Chameleon\\Components\\SearchBar' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/SearchBar.php',
+        'Skins\\Chameleon\\Components\\Silent' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Silent.php',
+        'Skins\\Chameleon\\Components\\SiteNotice' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/SiteNotice.php',
+        'Skins\\Chameleon\\Components\\Structure' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/Structure.php',
+        'Skins\\Chameleon\\Components\\ToolbarHorizontal' => __DIR__ . '/../..' . '/skins/chameleon/src/Components/ToolbarHorizontal.php',
+        'Skins\\Chameleon\\Hooks\\SetupAfterCache' => __DIR__ . '/../..' . '/skins/chameleon/src/Hooks/SetupAfterCache.php',
+        'Skins\\Chameleon\\IdRegistry' => __DIR__ . '/../..' . '/skins/chameleon/src/IdRegistry.php',
+        'Skins\\Chameleon\\Menu\\Menu' => __DIR__ . '/../..' . '/skins/chameleon/src/Menu/Menu.php',
+        'Skins\\Chameleon\\Menu\\MenuFactory' => __DIR__ . '/../..' . '/skins/chameleon/src/Menu/MenuFactory.php',
+        'Skins\\Chameleon\\Menu\\MenuFromLines' => __DIR__ . '/../..' . '/skins/chameleon/src/Menu/MenuFromLines.php',
+        'Skins\\Chameleon\\PermissionsHelper' => __DIR__ . '/../..' . '/skins/chameleon/src/PermissionsHelper.php',
+        'Skins\\Chameleon\\Tests\\Integration\\StylesCompileTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Integration/StylesCompileTest.php',
+        'Skins\\Chameleon\\Tests\\Integration\\XmlLayoutFileValidityTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Integration/XmlLayoutFileValidityTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\ChameleonTemplateTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/ChameleonTemplateTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\CellTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/CellTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\ComponentTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/ComponentTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\ContainerTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/ContainerTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\FooterIconsTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/FooterIconsTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\FooterInfoTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/FooterInfoTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\FooterPlacesTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/FooterPlacesTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\GenericComponentTestCase' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/GenericComponentTestCase.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\GridTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/GridTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\HtmlTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/HtmlTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\LogoTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/LogoTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\MainContentTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/MainContentTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\MenuTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/MenuTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\Modifications\\GenericModificationTestCase' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/Modifications/GenericModificationTestCase.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\Modifications\\HideForTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/Modifications/HideForTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\Modifications\\ShowOnlyTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/Modifications/ShowOnlyForTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\NavMenuTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/NavMenuTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\NavbarHorizontalTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/NavbarHorizontalTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\NewtalkNotifierTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/NewtalkNotifierTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\PageToolsTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/PageToolsTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\PersonalToolsTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/PersonalToolsTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\RowTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/RowTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\SearchBarTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/SearchBarTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\SilentTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/SilentTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\SiteNoticeTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/SiteNoticeTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\StructureTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/StructureTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Components\\ToolbarHorizontalTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Components/ToolbarHorizontalTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Hooks\\SetupAfterCacheTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Hooks/SetupAfterCacheTest.php',
+        'Skins\\Chameleon\\Tests\\Unit\\Menu\\MenuFromLinesTest' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Unit/Menu/MenuFromLinesTest.php',
+        'Skins\\Chameleon\\Tests\\Util\\ColoringTextUIResultPrinter' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Util/ColoringTextUIResultPrinter.php',
+        'Skins\\Chameleon\\Tests\\Util\\DocumentElementFinder' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Util/DocumentElementFinder.php',
+        'Skins\\Chameleon\\Tests\\Util\\MockupFactory' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Util/MockupFactory.php',
+        'Skins\\Chameleon\\Tests\\Util\\XmlFileProvider' => __DIR__ . '/../..' . '/skins/chameleon/tests/phpunit/Util/XmlFileProvider.php',
         'Squiz_Sniffs_Arrays_ArrayBracketSpacingSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayBracketSpacingSniff.php',
         'Squiz_Sniffs_Arrays_ArrayDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayDeclarationSniff.php',
         'Squiz_Sniffs_CSS_ClassDefinitionClosingBraceSpaceSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionClosingBraceSpaceSniff.php',
@@ -2092,11 +2247,11 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$classMap;
 
         }, null, ClassLoader::class);
     }
