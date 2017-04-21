@@ -10,10 +10,12 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a24b5daa493ecb5e767c7d1592a8da36' => __DIR__ . '/..' . '/mediawiki/at-ease/src/Functions.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'e4a3b04de436ac79e6a70da4de9e1031' => __DIR__ . '/..' . '/tinymighty/skinny/Skinny.php',
         'c3f7f0e81464740a933532e81fa26cc7' => __DIR__ . '/..' . '/wikimedia/base-convert/src/Functions.php',
         'd55c27a601de788b19a09b7d057d07ae' => __DIR__ . '/..' . '/wikimedia/relpath/src/RelPath.php',
         'c50606d667a3fde2b80a955639479d3d' => __DIR__ . '/..' . '/wikimedia/timestamp/src/defines.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
+        'c2e71fcc04a495222070f6110f9c6139' => __DIR__ . '/..' . '/tinymighty/booty-skin/Booty.php',
         '38db717deddb215de53e36c2c0bc9e7e' => __DIR__ . '/../..' . '/includes/compat/Timestamp.php',
         '6e34e14285f2ef7d187014f2888f15e2' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         '228bb15c3eaa7fe8028741119398e3a1' => __DIR__ . '/..' . '/wmde/hamcrest-html-matchers/src/functions.php',
@@ -44,6 +46,7 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
+            'Skinny\\' => 7,
         ),
         'R' => 
         array (
@@ -129,6 +132,10 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Skinny\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tinymighty/skinny/includes',
         ),
         'RemexHtml\\' => 
         array (
@@ -1731,6 +1738,10 @@ class ComposerStaticInit7f3870cb656991eba8aa2fc4f97c19e5
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Skinny\\Layout' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Layout.php',
+        'Skinny\\Skin' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Skin.php',
+        'Skinny\\Slim' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Slim.php',
+        'Skinny\\Template' => __DIR__ . '/..' . '/tinymighty/skinny/includes/Template.php',
         'Squiz_Sniffs_Arrays_ArrayBracketSpacingSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayBracketSpacingSniff.php',
         'Squiz_Sniffs_Arrays_ArrayDeclarationSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/Arrays/ArrayDeclarationSniff.php',
         'Squiz_Sniffs_CSS_ClassDefinitionClosingBraceSpaceSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Squiz/Sniffs/CSS/ClassDefinitionClosingBraceSpaceSniff.php',
