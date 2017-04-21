@@ -21,7 +21,6 @@ return array(
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'Skins\\Chameleon\\Tests\\' => array($baseDir . '/skins/chameleon/tests/phpunit'),
     'Skins\\Chameleon\\' => array($baseDir . '/skins/chameleon/src'),
-    'Skinny\\' => array($baseDir . '/extensions/Skinny/includes'),
     'RemexHtml\\' => array($vendorDir . '/wikimedia/remex-html/RemexHtml'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src/Psy'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),

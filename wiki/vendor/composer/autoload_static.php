@@ -4,18 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a
+class ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a24b5daa493ecb5e767c7d1592a8da36' => __DIR__ . '/..' . '/mediawiki/at-ease/src/Functions.php',
-        'e4a3b04de436ac79e6a70da4de9e1031' => __DIR__ . '/../..' . '/extensions/Skinny/Skinny.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '909f49809564e82b2d61096b70b21283' => __DIR__ . '/../..' . '/extensions/Bootstrap/Bootstrap.php',
         'c3f7f0e81464740a933532e81fa26cc7' => __DIR__ . '/..' . '/wikimedia/base-convert/src/Functions.php',
         'd55c27a601de788b19a09b7d057d07ae' => __DIR__ . '/..' . '/wikimedia/relpath/src/RelPath.php',
         'c50606d667a3fde2b80a955639479d3d' => __DIR__ . '/..' . '/wikimedia/timestamp/src/defines.php',
-        'c2e71fcc04a495222070f6110f9c6139' => __DIR__ . '/../..' . '/skins/booty/Booty.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         'd5ece1612187536cca0f0d445ce68f45' => __DIR__ . '/../..' . '/skins/chameleon/Chameleon.php',
         'cb42de33506561e6b5fe72b72238a9a0' => __DIR__ . '/../..' . '/skins/chameleon/src/SkinChameleon.php',
@@ -51,7 +49,6 @@ class ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a
             'Symfony\\Component\\Console\\' => 26,
             'Skins\\Chameleon\\Tests\\' => 22,
             'Skins\\Chameleon\\' => 16,
-            'Skinny\\' => 7,
         ),
         'R' => 
         array (
@@ -146,10 +143,6 @@ class ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a
         'Skins\\Chameleon\\' => 
         array (
             0 => __DIR__ . '/../..' . '/skins/chameleon/src',
-        ),
-        'Skinny\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/extensions/Skinny/includes',
         ),
         'RemexHtml\\' => 
         array (
@@ -2247,11 +2240,11 @@ class ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInit027dc371f12cc7fec5e0f997c82efa4a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit8662bba7c8450d0be4a3cdec176b28af::$classMap;
 
         }, null, ClassLoader::class);
     }

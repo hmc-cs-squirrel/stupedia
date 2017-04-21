@@ -8,13 +8,11 @@ $baseDir = dirname($vendorDir);
 return array(
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     'a24b5daa493ecb5e767c7d1592a8da36' => $vendorDir . '/mediawiki/at-ease/src/Functions.php',
-    'e4a3b04de436ac79e6a70da4de9e1031' => $baseDir . '/extensions/Skinny/Skinny.php',
     '667aeda72477189d0494fecd327c3641' => $vendorDir . '/symfony/var-dumper/Resources/functions/dump.php',
     '909f49809564e82b2d61096b70b21283' => $baseDir . '/extensions/Bootstrap/Bootstrap.php',
     'c3f7f0e81464740a933532e81fa26cc7' => $vendorDir . '/wikimedia/base-convert/src/Functions.php',
     'd55c27a601de788b19a09b7d057d07ae' => $vendorDir . '/wikimedia/relpath/src/RelPath.php',
     'c50606d667a3fde2b80a955639479d3d' => $vendorDir . '/wikimedia/timestamp/src/defines.php',
-    'c2e71fcc04a495222070f6110f9c6139' => $baseDir . '/skins/booty/Booty.php',
     'e7223560d890eab89cda23685e711e2c' => $vendorDir . '/psy/psysh/src/Psy/functions.php',
     'd5ece1612187536cca0f0d445ce68f45' => $baseDir . '/skins/chameleon/Chameleon.php',
     'cb42de33506561e6b5fe72b72238a9a0' => $baseDir . '/skins/chameleon/src/SkinChameleon.php',
